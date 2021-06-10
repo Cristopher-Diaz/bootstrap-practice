@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practica bootstrap</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="card-container">
+    <div class="card-body">
+      <h1 class="card-title">Página de Enlaces</h1>
+      <p class="card-text">La siguiente página contiene enlaces a noticias entre otras
+        cosas de interes.
+      </p>
+    </div>
+  </div>
+
+  <div class="datetime">
+    <p>
+      02-06-2021
+    </p>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Noticias Destacadas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Busqueda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Diarios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Finanzas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Libros</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+          <button class="btn btn-danger" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- primera seccion -->
+
+  <div class="container1">
+    <div class="row">
+      <div class="card1-container1 col">
+        <img src="style/img/Extra.original.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Noticias Destacadas</h5>
+          <p class="card-text">Pequeño apartado de enlaces de noticias.</p>
+
+          <li> <i>[06-06-2021]</i><b>Noticia 1</b> <a
+              href="https://www.latercera.com/nacional/noticia/tres-regiones-del-pais-registran-record-de-casos-activos-confirmados-de-covid-19-y-rm-alcanza-cifra-mas-alta-en-346-dias/AOH72XKB5NGJ5BDIAFD63BZCOY/"
+              target="_blank" class="btn btn-primary">Visitar Noticia</a></li>
+          <li> <i>[06-06-2021]</i><b>Noticia 2</b> <a
+              href="https://cooperativa.cl/noticias/pais/poblacion/inmigrantes/gobierno-defiende-expulsion-de-inmigrantes-una-veintena-de-ellos-estan/2021-06-06/103838.html"
+              target="_blank" class="btn btn-primary">Visitar Noticia</a></li>
+          <li> <i>[04-06-2021]</i><b>Noticia 3</b> <a
+              href="https://www.biobiochile.cl/noticias/nacional/chile/2021/06/06/toque-de-queda-hoy-domingo-06-de-junio-a-que-hora-es-y-con-que-permisos-puedo-salir.shtml"
+              target="_blank" class="btn btn-primary">Visitar Noticia</a></li>
+
+        </div>
+      </div>
+      <!-- segunda seccion -->
+      <div class="card2-container2 col">
+        <img src="style/img/google.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Motores de Búsqueda</h5>
+          <p class="card-text">Pequeño apartado de enlaces de motores de búsqueda.</p>
+
+          <li><b>Buscar en</b> <a href="https://www.google.com/?hl=es" target="_blank"
+              class="btn btn-primary">Google</a></li>
+          <li><b>Buscar en</b> <a href="https://www.bing.com/?setlang=es" target="_blank"
+              class="btn btn-primary">Bing</a></li>
+          <li><b>Buscar en</b> <a href="https://duckduckgo.com/" target="_blank" class="btn btn-primary">DuckDuckGo</a>
+          </li>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- tercera seccion -->
+
+  <div class="container2">
+    <div class="row">
+      <div class="card3-container3 col">
+        <img src="style/img/diarios.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Diarios Nacionales e Internacionales</h5>
+          <p class="card-text">Pequeño apartado de enlaces de diarios nacionales e internacionales.</p>
+          <li> <b>Visitar sitio </b> <a href="https://www.washingtonpost.com/" target="_blank"
+              class="btn btn-danger">Washington Post</a></li>
+          <li> <b>Visitar sitio </b> <a href="https://www.emol.com/" target="_blank" class="btn btn-danger">Emol</a>
+          </li>
+        </div>
+      </div>
+      <!-- cuarta seccion -->
+      <div class="card4-container4 col">
+        <img src="style/img/finanzas.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Sitio de Finanzas</h5>
+          <p class="card-text">Pequeño apartado de enlaces relacionados a sitios de finanzas.</p>
+
+          <li> <b>Visitar sitio </b> <a href="https://www.bolsadesantiago.com/" target="_blank"
+              class="btn btn-danger">Bolsa comercio Santiago</a></li>
+          <li> <b>Visitar sitio </b> <a href="https://sitios.cl/directorio/finanzas-y-negocios.htm" target="_blank"
+              class="btn btn-danger">Sitios.Cl</a></li>
+
+        </div>
+      </div>
+      <!-- quinta seccion -->
+      <div class="card5-container5 col">
+        <img src="style/img/libros.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Libros</h5>
+          <p class="card-text">Pequeño apartado de enlaces de libros.</p>
+
+          <li> <b>Leer Libro </b> <a href="https://www.academia.edu/17472471/Electronica_10_edicion_Boylestad"
+              target="_blank" class="btn btn-danger">Boylestad</a></li>
+          <li> <b>Leer Libro </b> <a
+              href="https://electronicautm.files.wordpress.com/2014/06/fundamentos-de-sistemas-digitales-floyd-9ed.pdf"
+              target="_blank" class="btn btn-danger">Fundamentos S.D</a></li>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>
+      2021 Taller Front-End Desarrollado en bootstrap.
+    </p>
+
+  </footer>
+  <br><br>
+
+
+</body>
+
+</html>
